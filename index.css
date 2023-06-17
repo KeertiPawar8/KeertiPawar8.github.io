@@ -191,6 +191,7 @@ section .title::after {
     font-size: 23px;
     cursor: pointer;
     display: none;
+
 }
 
 .nav-link.contact {
@@ -809,7 +810,8 @@ footer span a:hover {
 
 #projects {
     background-color: #111;
-
+    font-family: 'Poppins', sans-serif;
+    
 
 }
 
@@ -822,6 +824,7 @@ footer span a:hover {
     padding-top: 5%;
     font-size: 3vw;
     color: white;
+    margin-left: -10%;
 
 }
 
@@ -907,7 +910,9 @@ footer span a:hover {
     text-align: center;
     padding: 0 3% 0 3%;
 }
-
+.newlayer{
+    margin-top: -3%;
+}
 
 .newlayer a {
     margin-top: 10%;
@@ -1137,6 +1142,11 @@ footer span a:hover {
 }
 
 @media (max-width: 690px) {
+
+
+
+
+
     .max-width {
         display: flex;
         flex-direction: column;
@@ -1272,3 +1282,11 @@ footer span a:hover {
         line-height: 38px;
     }
 }
+
+@media (max-width:1000px){
+    .project-card{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
